@@ -1,0 +1,105 @@
+/* COMMON CODE START  HERE  */
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* Random Number style  */
+.random-number 
+{
+    max-width: 500px;
+    background-color: #030c41;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgb(160, 160, 160);
+
+}
+.container-fluid 
+{
+    height: 100vh;
+    background-color: #F3F1F5;
+}
+#pin 
+{
+    display: block;
+    margin: 0px auto;
+    margin-top: 25%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    font-size: 25px;
+
+}
+.btn-container 
+{
+    max-width: 500px;
+    background: #073d4b;
+    height: 600px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 4px 4px 5px rgb(160, 160, 160);
+  
+}
+.buttons 
+{
+    max-width: 500px;
+}
+.buttons input
+{
+
+ height: 70px;
+ width: 70px;
+ font-size: 30px;
+ border-radius: 100px;
+ margin: 1%;
+ text-align: center;
+
+}
+#success_ 
+{
+    display: none;
+    transition: .5s;
+    
+}
+#failed 
+{
+    display: none;
+    transition: .5s;
+}
+@media screen and (max-width:750px) 
+{
+    .buttons input
+{
+
+ height: 50px;
+ width: 50px;
+ font-size: 20px;
+ border-radius: 100px;
+ margin: 1%;
+
+}
+#pin 
+{
+ 
+    margin-top: 25%;
+    width: 150px;
+    height: 150px;
+
+
+}
+.random-number 
+{
+    max-width: 500px;
+    height: 500px;
+}
+.btn-container 
+{
+    max-width: 500px;
+    height: 450px;
+}
+}
